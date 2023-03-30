@@ -1,6 +1,6 @@
 
 api:
-  key: 4P0xIsuOQIRoGEQBvs0ZJJyEuxpYi38G}
+  key: 4P0xIsuOQIRoGEQBvs0ZJJyEuxpYi38G
   url: ${API_URL:https://api.apilayer.com/exchangerates_data/convert}
 
 server:
