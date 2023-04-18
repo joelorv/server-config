@@ -10,15 +10,10 @@ spring:
     username: goejopzh
     password: 6jDIN535rF99TArhWUNOyCkB17rMfV6W
     virtual-host: goejopzh
-  zipkin:
-    enabled: false
-    locator:
-      discovery:
-        enabled: false
 
 eureka:
   client:
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://ms-dicovery:8761/eureka/
-    enabled: false
+    enabled: true
