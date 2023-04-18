@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ms-account
+
+server:
+  port: 8435
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://ms-discovery:8761/eureka/
