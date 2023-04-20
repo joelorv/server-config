@@ -48,3 +48,11 @@ management:
     web:
       exposure:
         include: "*"
+
+
+eureka:
+  client:
+    enabled: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://ms-discovery:8761/eureka/
