@@ -36,6 +36,12 @@ keycloak:
             - GET
           patterns:
             - /api/currency/*
+    - security-collections:
+        - name: TEST NOTIFICACIONES
+          methods:
+            - GET
+          patterns:
+            - /api/currency/test-notification
 
 management:
   endpoints:
